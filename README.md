@@ -29,13 +29,16 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your team lead
 
 1. Describe the biggest difference between `.forEach` & `.map`.
-
+forEach modifies the original array and does not make a new one, map does not modify the original and returns a new array.
 2. What is the difference between a function and a method?
-
+function is a piece of code we can call throughought our program and a method is a function that's nested inside of a object.
 3. What is closure?
-
+closure is the idea of the js engine being 2 pass. It can look for references on the first pass and set them up in nested functions and what not.
 4. Describe the four rules of the 'this' keyword.
-
+gloabl this and strict mode vs none strict mode, without strict mode this is basically referencing global object and in strict mode it would be undefined. this is still kind of confusing but Its easier to understand when you need to us "this" in the moment.
+implciit binding which would be something to the left of a dot like "THIS".object
+explicit binding which would be using the call or apply or bind with functions to explicity refer to something from the function to the object
+new bindings would use an example of a constructor function, referencing whatever the constructors property was from the new object.
 5. Why do we need super() in an extended class?
 
 ## Project Set up
